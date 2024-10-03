@@ -43,5 +43,23 @@ Terminal AI is an AI assistant that runs directly in the user's terminal, utiliz
 
 3. To exit the application, type `exit` or press `Ctrl+C`.
 
+## Creating an Executable
+
+To create an executable of the project, follow these steps:
+
+1. Install PyInstaller if you haven't already:
+   ```bash
+   pip install pyinstaller
+   ```
+
+2. Run PyInstaller on the main script:
+   ```bash
+   pyinstaller --onefile main.py
+   ```
+
+3. The executable will be located in the `dist` directory.
+
+4. Run the executable directly on your system.
+
 ## Contribution
 Feel free to open issues or submit pull requests for improvements.
